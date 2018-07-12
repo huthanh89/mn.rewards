@@ -67269,7 +67269,7 @@ var View = Mn.View.extend({
     this.collection = new Bb.Collection();
 
     this.addWallet({
-      name:    'Arktur-MN1',
+      name:    'Arkt-Mn1',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -67277,7 +67277,7 @@ var View = Mn.View.extend({
       address:  ArktMN1
     });
     this.addWallet({
-      name:    'Arktur-MN2',
+      name:    'Arkt-Mn2',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -67285,7 +67285,7 @@ var View = Mn.View.extend({
       address:  ArktMN2
     });
     this.addWallet({
-      name:    'Arktur-MN3',
+      name:    'Arkt-Mn3',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -67293,7 +67293,7 @@ var View = Mn.View.extend({
       address:  ArktMN3
     });
     this.addWallet({
-      name:    'Arktur-MN4',
+      name:    'Arkt-Mn4',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -67301,7 +67301,7 @@ var View = Mn.View.extend({
       address:  ArktMN4
     });
     this.addWallet({
-      name:    'Arktur-MN5',
+      name:    'Arkt-Mn5',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -67309,7 +67309,7 @@ var View = Mn.View.extend({
       address:  ArktMN5
     });
     this.addWallet({
-      name:    'GenesisX-MN1',
+      name:    'Xgs-Mn1',
       type:    'genesisx',
       symbol:  'XGS',
       amt:      5000,
@@ -67317,7 +67317,7 @@ var View = Mn.View.extend({
       address:  XgsMN1
     });
     this.addWallet({
-      name:    'Gincoin-MN2',
+      name:    'Gin-Mn1',
       type:    'gincoin',
       symbol:  'GIN',
       amt:      1000,
@@ -68063,7 +68063,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* 146 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-md-12 text-right\"><span>Refresh </span><span> <b id=\"watchlist-timer\">0</b></span></div><div class=\"col-lg-12\"><div class=\"row\"><div class=\"col-lg-5\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fab fa-fw fa-btc\"></i> <b> <a href=\"https://wallet.crypto-bridge.org/\" target=\"_blank\">Exchange</a></b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover\"><thead><th style=\"width:30px;\"></th><th>Name</th><th>Price</th><th>Last</th><th>Market Cap</th><th>MN Cost</th><th>Reduction</th></thead><tbody id=\"watchlist-exchange-body\"></tbody></table></div></div></div><div class=\"col-lg-7\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"far fa-fw fa-bookmark\"></i> <b>Watchlist</b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover text-center\"><thead><th>Name</th><th>Invested</th><th>Rewarded</th><th>ROI</th><th>Daily</th><th>Frequency</th><th>Next</th><th>Balance</th><th>Unlocked</th></thead><tbody id=\"watchlist-portfolio-body\"></tbody></table></div></div></div></div></div><div class=\"col-md-12\"><div id=\"watchlist-summary\"></div></div><div class=\"col-md-12\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fas fa-fw fa-exchange-alt\"></i> <b>Transactions</b></div><div class=\"card-body text-center\"><table class=\"table table-striped table-sm table-hover\"><thead><th>Date</th><th>Wallet</th><th>Transaction ID</th><th>Amount</th></thead><tbody id=\"watchlist-transaction-body\"></tbody></table></div></div></div>";
+module.exports = "<div class=\"col-md-12 text-right\"><span>Refresh </span><span> <b id=\"watchlist-timer\">0</b></span></div><div class=\"col-lg-12\"><div class=\"row\"><div class=\"col-lg-5\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fab fa-fw fa-btc\"></i> <b> <a href=\"https://wallet.crypto-bridge.org/\" target=\"_blank\">Exchange</a></b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover\"><thead><th style=\"width:30px;\"></th><th>Name</th><th>Price</th><th>Last</th><th>M.Cap</th><th>MN Cost</th><th>Reduction</th></thead><tbody id=\"watchlist-exchange-body\"></tbody></table></div></div></div><div class=\"col-lg-7\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"far fa-fw fa-bookmark\"></i> <b>Watchlist</b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover text-center\"><thead><th>Name</th><th>Invested</th><th>Rewarded</th><th>ROI</th><th>Daily</th><th>Freq</th><th>Next</th><th>Balance</th><th>Unlocked</th></thead><tbody id=\"watchlist-portfolio-body\"></tbody></table></div></div></div></div></div><div class=\"col-md-12\"><div id=\"watchlist-summary\"></div></div><div class=\"col-md-12\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fas fa-fw fa-exchange-alt\"></i> <b>Transactions</b></div><div class=\"card-body text-center\"><table class=\"table table-striped table-sm table-hover\"><thead><th>Date</th><th>Wallet</th><th>Transaction ID</th><th>Amount</th></thead><tbody id=\"watchlist-transaction-body\"></tbody></table></div></div></div>";
 
 /***/ }),
 /* 147 */
@@ -68407,7 +68407,7 @@ var View = Mn.View.extend({
 /* 150 */
 /***/ (function(module, exports) {
 
-module.exports = "<tr><td><image src=\"../asset/btc.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://coinmarketcap.com/\" target=\"_blank\">Bitcoin</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-btc\"></b></td><td>-</td><td id=\"exchange-marketcap-btc\"></td><td>-</td><td>-</td></tr><tr><td><image src=\"../asset/arkt.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/ARKT/\" target=\"_blank\">Arktur</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-art\"></b></td><td id=\"exchange-btc-art\"></td><td id=\"exchange-marketcap-art\"></td><td id=\"exchange-cost-art\"></td><td id=\"exchange-reduce-art\"></td></tr><tr><td><image src=\"../asset/xgs.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/XGS/\" target=\"_blank\">GenesisX</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-xgs\"></b></td><td id=\"exchange-btc-xgs\"></td><td id=\"exchange-marketcap-xgs\"></td><td id=\"exchange-cost-xgs\"></td><td id=\"exchange-reduce-xgs\"></td></tr><tr><td><image src=\"../asset/gin.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/GIN/\" target=\"_blank\">Gincoin</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-gin\"></b></td><td id=\"exchange-btc-gin\"></td><td id=\"exchange-marketcap-gin\"></td><td id=\"exchange-cost-gin\"></td><td id=\"exchange-reduce-gin\"></td></tr><tr><td><image src=\"../asset/xmn.png\" width=\"25\" height=\"25\"></image></td><td><b><a href=\"https://masternodes.online/currencies/XMN/\" target=\"_blank\">Motion</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-xmn\"></b></td><td id=\"exchange-btc-xmn\"></td><td id=\"exchange-marketcap-xmn\"></td><td id=\"exchange-cost-xmn\"></td><td id=\"exchange-reduce-xmn\"></td></tr>";
+module.exports = "<tr><td><image src=\"../asset/btc.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://coinmarketcap.com/\" target=\"_blank\">BTC</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-btc\"></b></td><td>-</td><td id=\"exchange-marketcap-btc\"></td><td>-</td><td>-</td></tr><tr><td><image src=\"../asset/arkt.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/ARKT/\" target=\"_blank\">Arkt</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-art\"></b></td><td id=\"exchange-btc-art\"></td><td id=\"exchange-marketcap-art\"></td><td id=\"exchange-cost-art\"></td><td id=\"exchange-reduce-art\"></td></tr><tr><td><image src=\"../asset/xgs.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/XGS/\" target=\"_blank\">XGS</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-xgs\"></b></td><td id=\"exchange-btc-xgs\"></td><td id=\"exchange-marketcap-xgs\"></td><td id=\"exchange-cost-xgs\"></td><td id=\"exchange-reduce-xgs\"></td></tr><tr><td><image src=\"../asset/gin.png\" width=\"25\" height=\"25\"></image></td><td> <b><a href=\"https://masternodes.online/currencies/GIN/\" target=\"_blank\">GIN</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-gin\"></b></td><td id=\"exchange-btc-gin\"></td><td id=\"exchange-marketcap-gin\"></td><td id=\"exchange-cost-gin\"></td><td id=\"exchange-reduce-gin\"></td></tr><tr><td><image src=\"../asset/xmn.png\" width=\"25\" height=\"25\"></image></td><td><b><a href=\"https://masternodes.online/currencies/XMN/\" target=\"_blank\">XMN</a></b></td><td><b class=\"text-success\" id=\"exchange-usd-xmn\"></b></td><td id=\"exchange-btc-xmn\"></td><td id=\"exchange-marketcap-xmn\"></td><td id=\"exchange-cost-xmn\"></td><td id=\"exchange-reduce-xmn\"></td></tr>";
 
 /***/ }),
 /* 151 */

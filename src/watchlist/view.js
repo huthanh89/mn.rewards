@@ -92,7 +92,7 @@ var View = Mn.View.extend({
     this.collection = new Bb.Collection();
 
     this.addWallet({
-      name:    'Arktur-MN1',
+      name:    'Arkt-Mn1',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -100,7 +100,7 @@ var View = Mn.View.extend({
       address:  ArktMN1
     });
     this.addWallet({
-      name:    'Arktur-MN2',
+      name:    'Arkt-Mn2',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -108,7 +108,7 @@ var View = Mn.View.extend({
       address:  ArktMN2
     });
     this.addWallet({
-      name:    'Arktur-MN3',
+      name:    'Arkt-Mn3',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -116,7 +116,7 @@ var View = Mn.View.extend({
       address:  ArktMN3
     });
     this.addWallet({
-      name:    'Arktur-MN4',
+      name:    'Arkt-Mn4',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -124,7 +124,7 @@ var View = Mn.View.extend({
       address:  ArktMN4
     });
     this.addWallet({
-      name:    'Arktur-MN5',
+      name:    'Arkt-Mn5',
       type:    'arktur',
       symbol:  'ART',
       amt:      10000,
@@ -132,7 +132,7 @@ var View = Mn.View.extend({
       address:  ArktMN5
     });
     this.addWallet({
-      name:    'GenesisX-MN1',
+      name:    'Xgs-Mn1',
       type:    'genesisx',
       symbol:  'XGS',
       amt:      5000,
@@ -140,7 +140,7 @@ var View = Mn.View.extend({
       address:  XgsMN1
     });
     this.addWallet({
-      name:    'Gincoin-MN2',
+      name:    'Gin-Mn1',
       type:    'gincoin',
       symbol:  'GIN',
       amt:      1000,
