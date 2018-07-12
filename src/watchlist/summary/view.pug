@@ -1,0 +1,90 @@
+.row
+  .col-lg-3
+    .card.mb-3
+      .card-header.text-white.bg-info
+        i.fa-fw.fas.fa-dollar-sign
+        = ' '
+        b Actual Income
+      .card-body
+        table.table.table-sm
+          tbody
+            tr
+              td
+                b Today
+              td#summary-actual-today
+            tr
+              td
+                b Last 24 Hours
+              td#summary-actual-last24hours
+            tr
+              td
+                b Last 7 Days
+              td#summary-actual-last7days
+            tr
+              td
+                b Last 30 Days
+              td#summary-actual-last30days
+  .col-lg-3
+    .card.mb-3
+      .card-header.text-white.bg-info
+        i.fa-fw.fas.fa-money-bill-wave
+        = ' '
+        b Estimated Income
+      .card-body
+        table.table.table-sm
+          tbody
+            tr
+              td
+                b Wage
+              td#summary-estimate-wage
+            tr
+              td
+                b Hourly
+              td#summary-estimate-hourly
+            tr
+              td
+                b Daily
+              td#summary-estimate-daily
+            tr
+              td
+                b Weekly
+              td#summary-estimate-weekly
+            tr
+              td
+                b Monthly
+              td#summary-estimate-monthly
+            tr
+              td
+                b Yearly
+              td#summary-estimate-yearly
+  .col-lg-3
+    .card.mb-3
+      .card-header.text-white.bg-info
+        i.fa-fw.fas.fa-hand-holding-usd
+        = ' '
+        b Total Profit
+      .card-body
+        table.table.table-sm
+          tbody
+            tr
+              td
+                b Unlocked
+              td
+                span
+                  b.text-success#summary-portfolio-excess
+            tr
+              td
+                b Invested
+              td#summary-roi-invested
+            tr
+              td
+                b Balance
+              td#summary-portfolio-balance
+            tr
+              td
+                b Rewarded
+              td#summary-roi-rewarded
+            tr
+              td
+                b ROI
+              td#summary-roi-result

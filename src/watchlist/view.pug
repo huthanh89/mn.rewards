@@ -1,0 +1,60 @@
+.col-md-12.text-right
+  span Refresh 
+  span
+    = ' '
+    b#watchlist-timer 0
+.col-lg-12
+  .row
+    .col-lg-5
+      .card.mb-3
+        .card-header.text-white.bg-secondary
+          i.fab.fa-fw.fa-btc
+          = ' '
+          b 
+            a(href="https://wallet.crypto-bridge.org/", target="_blank") Exchange
+        .card-body
+          table.table.table-striped.table-sm.table-hover
+            thead
+              th(style="width:30px;")
+              th Name
+              th Price
+              th Last
+              th Market Cap
+              th MN Cost
+              th Reduction
+            tbody#watchlist-exchange-body
+    .col-lg-7
+      .card.mb-3
+        .card-header.text-white.bg-secondary
+          i.far.fa-fw.fa-bookmark
+          = ' '
+          b Watchlist
+        .card-body
+          table.table.table-striped.table-sm.table-hover.text-center
+            thead
+              th Name
+              th Invested
+              th Rewarded
+              th ROI
+              th Daily
+              th Frequency
+              th Next
+              th Balance
+              th Unlocked
+            tbody#watchlist-portfolio-body
+.col-md-12
+  #watchlist-summary
+.col-md-12
+  .card.mb-3
+    .card-header.text-white.bg-secondary
+      i.fas.fa-fw.fa-exchange-alt
+      = ' '
+      b Transactions
+    .card-body.text-center
+      table.table.table-striped.table-sm.table-hover
+        thead
+          th Date
+          th Wallet
+          th Transaction ID
+          th Amount
+        tbody#watchlist-transaction-body
