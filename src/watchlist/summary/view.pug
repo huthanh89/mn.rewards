@@ -2,28 +2,34 @@
   .col-lg-3
     .card.mb-3
       .card-header.text-white.bg-info
-        i.fa-fw.fas.fa-dollar-sign
+        i.fa-fw.fas.fa-hand-holding-usd
         = ' '
-        b Actual Income
+        b Total Profit
       .card-body
         table.table.table-sm
           tbody
             tr
               td
-                b Today
-              td#summary-actual-today
+                b Unlocked
+              td
+                span
+                  b.text-success#summary-portfolio-excess
             tr
               td
-                b Last 24 Hours
-              td#summary-actual-last24hours
+                b Invested
+              td#summary-roi-invested
             tr
               td
-                b Last 7 Days
-              td#summary-actual-last7days
+                b Balance
+              td#summary-portfolio-balance
             tr
               td
-                b Last 30 Days
-              td#summary-actual-last30days
+                b Rewarded
+              td#summary-roi-rewarded
+            tr
+              td
+                b ROI
+              td#summary-roi-result
   .col-lg-3
     .card.mb-3
       .card-header.text-white.bg-info
@@ -60,31 +66,25 @@
   .col-lg-3
     .card.mb-3
       .card-header.text-white.bg-info
-        i.fa-fw.fas.fa-hand-holding-usd
+        i.fa-fw.fas.fa-dollar-sign
         = ' '
-        b Total Profit
+        b Actual Income
       .card-body
         table.table.table-sm
           tbody
             tr
               td
-                b Unlocked
-              td
-                span
-                  b.text-success#summary-portfolio-excess
+                b Today
+              td#summary-actual-today
             tr
               td
-                b Invested
-              td#summary-roi-invested
+                b Last 24 Hours
+              td#summary-actual-last24hours
             tr
               td
-                b Balance
-              td#summary-portfolio-balance
+                b Last 7 Days
+              td#summary-actual-last7days
             tr
               td
-                b Rewarded
-              td#summary-roi-rewarded
-            tr
-              td
-                b ROI
-              td#summary-roi-result
+                b Last 30 Days
+              td#summary-actual-last30days
