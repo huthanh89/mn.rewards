@@ -67405,7 +67405,7 @@ var View = Mn.View.extend({
   fetchBlock: function(callback){
     var counter = 0;
     var coins = [
-      {type: 'arktur',   symbol: 'ART', nextReduction: 35000,  blockTime: 59 },
+      {type: 'arktur',   symbol: 'ART', nextReduction: 100000,  blockTime: 59 },
       {type: 'genesisx', symbol: 'XGS', nextReduction: 100000, blockTime: 60 },
       {type: 'gincoin',  symbol: 'GIN', nextReduction: 230000, blockTime: 123},
       {type: 'motion',   symbol: 'XMN', nextReduction: 526100, blockTime: 119}
@@ -68063,7 +68063,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* 146 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-md-12 text-right\"><span>Refresh </span><span> <b id=\"watchlist-timer\">0</b></span></div><div class=\"col-lg-12\"><div class=\"row\"><div class=\"col-lg-5\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fab fa-fw fa-btc\"></i> <b> <a href=\"https://wallet.crypto-bridge.org/\" target=\"_blank\">Exchange</a></b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover\"><thead><th style=\"width:30px;\"></th><th>Name</th><th>Price</th><th>Last</th><th>M.Cap</th><th>Cost</th><th>Reduction</th></thead><tbody id=\"watchlist-exchange-body\"></tbody></table></div></div></div><div class=\"col-lg-7\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"far fa-fw fa-bookmark\"></i> <b>Watchlist</b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover text-center\"><thead><th>Name</th><th>Unlocked</th><th>Invested</th><th>Rewarded</th><th>ROI</th><th>Daily</th><th>Freq</th><th>Next</th><th>Balance</th></thead><tbody id=\"watchlist-portfolio-body\"></tbody></table></div></div></div></div></div><div class=\"col-md-12\"><div id=\"watchlist-summary\"></div></div><div class=\"col-md-12\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fas fa-fw fa-exchange-alt\"></i> <b>Transactions</b></div><div class=\"card-body text-center\"><table class=\"table table-striped table-sm table-hover\"><thead><th>Date</th><th>Wallet</th><th>Transaction ID</th><th>Amount</th></thead><tbody id=\"watchlist-transaction-body\"></tbody></table></div></div></div>";
+module.exports = "<div class=\"col-md-12 text-right\"><span>Refresh </span><span> <b id=\"watchlist-timer\">0</b></span></div><div class=\"col-lg-12\"><div class=\"row\"><div class=\"col-lg-5\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fab fa-fw fa-btc\"></i> <b> <a href=\"https://wallet.crypto-bridge.org/\" target=\"_blank\">Exchange</a></b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover\"><thead><th style=\"width:30px;\"></th><th>Name</th><th>Price</th><th>Last</th><th>M.Cap</th><th>Cost</th><th>Reduction</th></thead><tbody id=\"watchlist-exchange-body\"></tbody></table></div></div></div><div class=\"col-lg-7\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"far fa-fw fa-bookmark\"></i> <b>Watchlist</b></div><div class=\"card-body\"><table class=\"table table-striped table-sm table-hover text-center\"><thead><th>Name</th><th>Unlocked</th><th>ROI</th><th>Daily</th><th>Invested</th><th>Rewarded</th><th>Freq</th><th>Next</th><th>Balance</th></thead><tbody id=\"watchlist-portfolio-body\"></tbody></table></div></div></div></div></div><div class=\"col-md-12\"><div id=\"watchlist-summary\"></div></div><div class=\"col-md-12\"><div class=\"card mb-3\"><div class=\"card-header text-white bg-secondary\"><i class=\"fas fa-fw fa-exchange-alt\"></i> <b>Transactions</b></div><div class=\"card-body text-center\"><table class=\"table table-striped table-sm table-hover\"><thead><th>Date</th><th>Wallet</th><th>Transaction ID</th><th>Amount</th></thead><tbody id=\"watchlist-transaction-body\"></tbody></table></div></div></div>";
 
 /***/ }),
 /* 147 */
@@ -68633,7 +68633,7 @@ var View = Mn.View.extend({
 /* 153 */
 /***/ (function(module, exports) {
 
-module.exports = "<td><b class=\"portfolio-item-name\"></b></td><td><span class=\"portfolio-item-excess\"></span> <span>|</span> <b class=\"text-success\"><span class=\"portfolio-item-excess-usd\"></span></b></td><td class=\"portfolio-item-invested\"></td><td class=\"portfolio-item-rewarded\"></td><td class=\"portfolio-item-roi\"></td><td class=\"portfolio-item-daily\"></td><td class=\"portfolio-item-frequency\"></td><td><span class=\"portfolio-item-next\"></span></td><td><span class=\"portfolio-item-balance\"></span> <span>|</span> <span class=\"portfolio-item-balance-usd\"></span></td>";
+module.exports = "<td><b class=\"portfolio-item-name\"></b></td><td><span class=\"portfolio-item-excess\"></span> <span>|</span> <b class=\"text-success\"><span class=\"portfolio-item-excess-usd\"></span></b></td><td class=\"portfolio-item-roi\"></td><td class=\"portfolio-item-daily\"></td><td class=\"portfolio-item-invested\"></td><td class=\"portfolio-item-rewarded\"></td><td class=\"portfolio-item-frequency\"></td><td><span class=\"portfolio-item-next\"></span></td><td><span class=\"portfolio-item-balance\"></span> <span>|</span> <span class=\"portfolio-item-balance-usd\"></span></td>";
 
 /***/ }),
 /* 154 */

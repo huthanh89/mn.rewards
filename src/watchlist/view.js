@@ -228,7 +228,7 @@ var View = Mn.View.extend({
   fetchBlock: function(callback){
     var counter = 0;
     var coins = [
-      {type: 'arktur',   symbol: 'ART', nextReduction: 35000,  blockTime: 59 },
+      {type: 'arktur',   symbol: 'ART', nextReduction: 100000,  blockTime: 59 },
       {type: 'genesisx', symbol: 'XGS', nextReduction: 100000, blockTime: 60 },
       {type: 'gincoin',  symbol: 'GIN', nextReduction: 230000, blockTime: 123},
       {type: 'motion',   symbol: 'XMN', nextReduction: 526100, blockTime: 119}
